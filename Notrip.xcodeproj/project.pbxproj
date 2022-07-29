@@ -12,10 +12,17 @@
 		BEA0D330288E819000C643E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA0D32F288E819000C643E6 /* Assets.xcassets */; };
 		BEA0D333288E819000C643E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA0D332288E819000C643E6 /* Preview Assets.xcassets */; };
 		BEA0D335288E819000C643E6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0D334288E819000C643E6 /* Persistence.swift */; };
-		BEA0D338288E819000C643E6 /* Notrip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEA0D336288E819000C643E6 /* Notrip.xcdatamodeld */; };
 		BEA0D342288E819100C643E6 /* NotripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0D341288E819100C643E6 /* NotripTests.swift */; };
 		BEA0D34C288E819100C643E6 /* NotripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0D34B288E819100C643E6 /* NotripUITests.swift */; };
 		BEA0D34E288E819100C643E6 /* NotripUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0D34D288E819100C643E6 /* NotripUITestsLaunchTests.swift */; };
+		BEA0D35B288FB07E00C643E6 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0D35A288FB07E00C643E6 /* home.swift */; };
+		BEA0D35D288FED6B00C643E6 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0D35C288FED6B00C643E6 /* NotesView.swift */; };
+		BEA0D3792891F90100C643E6 /* detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0D3782891F90100C643E6 /* detailView.swift */; };
+		BEA0D395289275F100C643E6 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0D394289275F100C643E6 /* CategoriesView.swift */; };
+		BEA0D397289289D600C643E6 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0D396289289D600C643E6 /* FormView.swift */; };
+		BEA0D3992893095200C643E6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0D3982893095100C643E6 /* CoreDataManager.swift */; };
+		BEA0D39C289324D100C643E6 /* NotripCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEA0D39A289324D100C643E6 /* NotripCoreData.xcdatamodeld */; };
+		BEA0D3BF2893580700C643E6 /* NotesLIstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0D3BE2893580700C643E6 /* NotesLIstViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +49,19 @@
 		BEA0D32F288E819000C643E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEA0D332288E819000C643E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BEA0D334288E819000C643E6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		BEA0D337288E819000C643E6 /* Notrip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notrip.xcdatamodel; sourceTree = "<group>"; };
 		BEA0D33D288E819100C643E6 /* NotripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA0D341288E819100C643E6 /* NotripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotripTests.swift; sourceTree = "<group>"; };
 		BEA0D347288E819100C643E6 /* NotripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA0D34B288E819100C643E6 /* NotripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotripUITests.swift; sourceTree = "<group>"; };
 		BEA0D34D288E819100C643E6 /* NotripUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotripUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEA0D35A288FB07E00C643E6 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		BEA0D35C288FED6B00C643E6 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		BEA0D3782891F90100C643E6 /* detailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailView.swift; sourceTree = "<group>"; };
+		BEA0D394289275F100C643E6 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		BEA0D396289289D600C643E6 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		BEA0D3982893095100C643E6 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		BEA0D39B289324D100C643E6 /* NotripCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotripCoreData.xcdatamodel; sourceTree = "<group>"; };
+		BEA0D3BE2893580700C643E6 /* NotesLIstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesLIstViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +112,18 @@
 		BEA0D32A288E818F00C643E6 /* Notrip */ = {
 			isa = PBXGroup;
 			children = (
+				BEA0D3BD2893577B00C643E6 /* Managers */,
+				BEA0D3BC2893576A00C643E6 /* ViewModels */,
 				BEA0D32B288E818F00C643E6 /* NotripApp.swift */,
 				BEA0D32D288E818F00C643E6 /* ContentView.swift */,
+				BEA0D35A288FB07E00C643E6 /* home.swift */,
+				BEA0D394289275F100C643E6 /* CategoriesView.swift */,
+				BEA0D39A289324D100C643E6 /* NotripCoreData.xcdatamodeld */,
+				BEA0D35C288FED6B00C643E6 /* NotesView.swift */,
+				BEA0D396289289D600C643E6 /* FormView.swift */,
+				BEA0D3782891F90100C643E6 /* detailView.swift */,
 				BEA0D32F288E819000C643E6 /* Assets.xcassets */,
 				BEA0D334288E819000C643E6 /* Persistence.swift */,
-				BEA0D336288E819000C643E6 /* Notrip.xcdatamodeld */,
 				BEA0D331288E819000C643E6 /* Preview Content */,
 			);
 			path = Notrip;
@@ -131,6 +152,22 @@
 				BEA0D34D288E819100C643E6 /* NotripUITestsLaunchTests.swift */,
 			);
 			path = NotripUITests;
+			sourceTree = "<group>";
+		};
+		BEA0D3BC2893576A00C643E6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0D3BE2893580700C643E6 /* NotesLIstViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BEA0D3BD2893577B00C643E6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0D3982893095100C643E6 /* CoreDataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +300,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA0D395289275F100C643E6 /* CategoriesView.swift in Sources */,
 				BEA0D335288E819000C643E6 /* Persistence.swift in Sources */,
 				BEA0D32E288E818F00C643E6 /* ContentView.swift in Sources */,
+				BEA0D3792891F90100C643E6 /* detailView.swift in Sources */,
+				BEA0D35D288FED6B00C643E6 /* NotesView.swift in Sources */,
+				BEA0D3BF2893580700C643E6 /* NotesLIstViewModel.swift in Sources */,
 				BEA0D32C288E818F00C643E6 /* NotripApp.swift in Sources */,
-				BEA0D338288E819000C643E6 /* Notrip.xcdatamodeld in Sources */,
+				BEA0D397289289D600C643E6 /* FormView.swift in Sources */,
+				BEA0D35B288FB07E00C643E6 /* home.swift in Sources */,
+				BEA0D3992893095200C643E6 /* CoreDataManager.swift in Sources */,
+				BEA0D39C289324D100C643E6 /* NotripCoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,13 +637,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BEA0D336288E819000C643E6 /* Notrip.xcdatamodeld */ = {
+		BEA0D39A289324D100C643E6 /* NotripCoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				BEA0D337288E819000C643E6 /* Notrip.xcdatamodel */,
+				BEA0D39B289324D100C643E6 /* NotripCoreData.xcdatamodel */,
 			);
-			currentVersion = BEA0D337288E819000C643E6 /* Notrip.xcdatamodel */;
-			path = Notrip.xcdatamodeld;
+			currentVersion = BEA0D39B289324D100C643E6 /* NotripCoreData.xcdatamodel */;
+			path = NotripCoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
